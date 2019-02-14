@@ -12,7 +12,7 @@ const summedCharacters = checkMatchingCharacters.length
            
 console.log(checkMatchingCharacters)
 console.log(summedCharacters)
-console.log("cock")
+
 
 //Output:
 // [ 'a', 'A', 'A' ]
