@@ -18,10 +18,10 @@ function processingEmail(email) {
 // Producing output:
 const emailInput = ['testemail+david@lee.tcode.com', 'test.email+alex@leetcode.com', 'test.e.mail+bob.cathy@leetcode.com']
 const mappingInput = emailInput.map(processingEmail)
-const answerExplained = mappingInput.filter((email, index, originalArray)  => originalArray.indexOf(email) === index)
-const answerCount = answerExplained.length+":" + " The following addresses actually recieved mail:"
-console.log(answerCount)
-console.log(answerExplained)
+const answer = mappingInput.filter((email, index, originalArray)  => originalArray.indexOf(email) === index)
+const answerCountExplanation = answer.length+":" + " The following addresses actually recieved mail:"
+console.log(answerCountExplanation)
+console.log(answer)
 
 //Output: 
 // 2: The following addresses actually recieved mail:
