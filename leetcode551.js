@@ -10,12 +10,12 @@ console.log(attendance("PPALLP"))
 console.log(attendance("PPALLL"))
 
 // refactored code
-const test = (str) => {
+const checkAttendance = (str) => {
   return str.split("A").length = 1 && str.indexOf("LLL") === -1
 }
 
-console.log(attendance("PPALLP"))
-console.log(attendance("PPALLL"))
+console.log(checkAttendance("PPALLP"))
+console.log(checkAttendance("PPALLL"))
 
 // Outputs:
 // true
