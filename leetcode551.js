@@ -16,3 +16,9 @@ const test = (str) => {
 
 console.log(attendance("PPALLP"))
 console.log(attendance("PPALLL"))
+
+// Outputs:
+// true
+// false
+// true
+// false
