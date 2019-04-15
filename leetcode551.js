@@ -11,7 +11,7 @@ console.log(attendance("PPALLL"))
 
 // refactored code
 const checkAttendance = (str) => {
-  return str.split("A").length = 1 && str.indexOf("LLL") === -1
+  return str.split("A").length <= 2 && str.indexOf("LLL") === -1
 }
 
 console.log(checkAttendance("PPALLP"))
